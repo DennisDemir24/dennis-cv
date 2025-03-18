@@ -1,4 +1,4 @@
-import { Mail, Github, Phone } from "lucide-react"
+import { Mail, Github, Phone, Globe } from "lucide-react"
 
 export default function Home() {
   return (
@@ -25,6 +25,12 @@ export default function Home() {
                 <Github className="h-5 w-5 text-gray-900 mr-2" />
                 <a target="_blank" rel="noopener noreferrer" href="https://github.com/DennisDemir24" className="text-blue-600 hover:underline">
                   github.com/DennisDemir24
+                </a>
+              </div>
+              <div className="flex items-center">
+                <Globe className="h-5 w-5 text-gray-900 mr-2" />
+                <a target="_blank" rel="noopener noreferrer" href="https://ironflow-solutions.vercel.app/" className="text-blue-600 hover:underline">
+                  Portfolio Website
                 </a>
               </div>
             </div>
